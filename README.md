@@ -13,6 +13,7 @@ The version of the RPM is always set to be the highest version of tika installed
 This initial version of the RPM installs:
 
 - /opt/pantheon/tika/tika-app-1.1.jar
+- /opt/pantheon/tika/tika-app-1.18.jar
 
 For more information, see the [Apache Tika Pantheon documentation](https://pantheon.io/docs/external-libraries/#apache-tika).
 
