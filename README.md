@@ -19,7 +19,9 @@ For more information, see the [Apache Tika Pantheon documentation](https://panth
 
 ## Picking Tika versions
 
-To specify Tika versions to include, simply edit VERSIONS.txt. Each entry in VERSIONS.txt should contain the Tika version to build.
+To specify Tika versions to include, simply edit VERSIONS.txt. Each entry in VERSIONS.txt should contain the Tika version to build and the SHA512 hash of the download, separated by a `:`.
+
+The latest available version of Tika and its SHA512 hash can be found on the [Apache Tika Downloads page](https://tika.apache.org/download.html). Be sure to copy the SHA512 hash for the tika-app.jar.
 
 ## Building locally
 
