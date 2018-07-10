@@ -11,12 +11,10 @@ source $bin/values.sh
 url="https://github.com/pantheon-systems/rpmbuild-tika"
 install_prefix="/opt/pantheon/$shortname"
 
-target_dir="$bin/../pkgs/$name"
-
 mkdir -p "$target_dir"
 
 fpm -s dir -t rpm	 \
-	--package "$target_dir/$rpm_name" \
+	--package "$rpm_name" \
 	--name "${name}" \
 	--version "${highest_version}" \
 	--iteration "${iteration}" \

@@ -31,4 +31,5 @@ then
 fi
 
 name="$shortname"
-rpm_name=${name}-${highest_version}-${iteration}.${arch}.rpm
+target_dir="$bin/../pkgs/$name"
+rpm_name="$target_dir/${name}-${highest_version}-${iteration}.${arch}.rpm"
