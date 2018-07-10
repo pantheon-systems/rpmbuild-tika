@@ -20,7 +20,7 @@ for version_with_sha in $versions; do(
   url="$base_url/$filename"
   target_dir="$bin/../pkgs/"
 
-  $DEBUG wget $url -O $download_dir/$filename
+  $DEBUG curl $url -o $download_dir/$filename
 
   # Verify the checksum for the downloaded file
 
