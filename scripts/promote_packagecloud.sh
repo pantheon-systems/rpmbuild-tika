@@ -22,5 +22,5 @@ promote_from=$1
 promote_to=$2
 
 for fedora_version in ${repo_versions[@]} ; do
-  echo package_cloud promote "pantheon/${promote_from}/fedora/${fedora_version}" "$rpm_name" "pantheon/${promote_to}"
+  package_cloud promote "pantheon/${promote_from}/fedora/${fedora_version}" "$rpm_name" "pantheon/${promote_to}"
 done
