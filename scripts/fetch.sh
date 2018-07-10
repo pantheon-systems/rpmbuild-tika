@@ -3,7 +3,7 @@
 set -ex
 bin="$(cd -P -- "$(dirname -- "$0")" && pwd -P)"
 
-DEBUG=echo
+DEBUG=
 
 source $bin/values.sh
 
