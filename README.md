@@ -31,7 +31,7 @@ Any time a commit is merged on a tracked branch, then a Tika RPM is built and pu
 Branch       | Target
 ------------ | ---------------
 master       | pantheon/internal/fedora/#
-*            | pantheon/internal-staging/fedora/#
+`*`            | pantheon/internal-staging/fedora/#
 
 In the table above, # is the fedora build number (22). Note that Tika is only installed on app servers, and there are no app servers on anything prior to f22; therefore, at the moment, we are only publishing for f22. Note also that these are noarch RPMs.
 
