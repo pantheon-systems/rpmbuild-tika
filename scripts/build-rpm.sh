@@ -11,7 +11,7 @@ source $bin/values.sh
 url="https://github.com/pantheon-systems/rpmbuild-tika"
 install_prefix="/opt/pantheon/$shortname"
 
-mkdir -p "$target_dir"
+mkdir -p "$pkg_dir"
 
 fpm -s dir -t rpm	 \
 	--package "$rpm_name" \

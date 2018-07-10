@@ -19,5 +19,5 @@ if [ -z "$1" ] ; then
 fi
 
 for fedora_version in ${repo_versions[@]} ; do
-  package_cloud push "pantheon/$1/fedora/$fedora_version" $target_dir/$rpm_name
+  echo package_cloud push "pantheon/$1/fedora/$fedora_version" $target_dir/$rpm_name
 done

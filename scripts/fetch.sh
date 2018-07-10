@@ -18,7 +18,6 @@ for version_with_sha in $versions; do(
   name="$shortname"
   filename="$shortname-app-$version.jar"
   url="$base_url/$filename"
-  target_dir="$bin/../pkgs/"
 
   $DEBUG curl $url -o $download_dir/$filename
 

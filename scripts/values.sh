@@ -31,5 +31,6 @@ then
 fi
 
 name="$shortname"
-target_dir="$bin/../pkgs/$name"
-rpm_name="$target_dir/${name}-${highest_version}-${iteration}.${arch}.rpm"
+pkg_name="$name-$highest_version"
+pkg_dir="$bin/../pkgs/$pkg_name"
+rpm_name="$pkg_dir/${name}-${highest_version}-${iteration}.${arch}.rpm"
