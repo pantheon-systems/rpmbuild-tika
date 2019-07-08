@@ -2,7 +2,7 @@
 #
 #  wrapper for pushing rpm's up to both repos
 #
-repo_versions=(22)
+repo_versions=(22 28 29)
 
 bin="$(cd -P -- "$(dirname -- "$0")" && pwd -P)"
 
