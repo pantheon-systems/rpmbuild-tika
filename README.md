@@ -45,4 +45,3 @@ To release new versions of Tika, simply update the VERSIONS.txt file and create 
 Pantheon will automatically install any new RPM that is deployed to Package Cloud. This is controlled by [pantheon-cookbooks/tika](https://github.com/pantheon-cookbooks/tika/blob/master/recipes/default.rb).
 
 The Pantheon cookbook must be modified to create symbolic links from `/srv/bin` to each `.jar` file in `/opt/pantheon/tika`. If an older version of Tika is removed from the platform, and the removed version is compatibeble with the next release still installed on the system, then the symlink from the removed version may be pointed to the version that remains.
-
