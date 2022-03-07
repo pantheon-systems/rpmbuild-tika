@@ -1,4 +1,6 @@
 [![CircleCI](https://circleci.com/gh/pantheon-systems/rpmbuild-tika.svg?style=shield)](https://circleci.com/gh/pantheon-systems/rpmbuild-tika)
+[![Deprecated](https://img.shields.io/badge/Pantheon-Deprecated-yellow?logo=pantheon&color=FFDC28)](https://pantheon.io/docs/oss-support-levels#deprecated)
+
 
 # RPM for Apache Tika
 
